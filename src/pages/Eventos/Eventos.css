@@ -1,0 +1,25 @@
+:root {
+    --cinza-claro: #ded9da;
+    --branco: #ffffff;
+    --cor-texto: #17143f;
+    --vermelho: #b51d44;
+    --vermelho-escuro: #821B47;
+    --azul-claro: rgba(0, 80, 251, 0.21);
+}
+
+.eventos-lista {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;
+    margin-top: 32px;
+}
+
+.container-eventos {
+  display: grid;
+  /* Cria colunas responsivas de 3 em 3 (ou ajusta dinamicamente) */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  gap: 20px; /* Espaçamento entre os cards */
+  padding: 20px 0;
+  max-width: 1200px;
+  margin: 0 auto; /* Centraliza a lista na página */
+}
